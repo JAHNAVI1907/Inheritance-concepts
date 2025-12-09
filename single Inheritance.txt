@@ -1,0 +1,10 @@
+#single Inheritance
+class vehicle:
+    def __init__(self,name,max_speed,mileage):
+        self.name=name
+        self.max_speed=max_speed
+        self.mileage=mileage
+class bus(vehicle):
+    pass
+obj=bus("benz",120,21)
+print(obj.name,obj.max_speed,obj.mileage)
